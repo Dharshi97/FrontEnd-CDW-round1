@@ -1,0 +1,56 @@
+.container {
+  max-width: 1280px;
+  margin: 0;
+}
+
+.api-data {
+  padding: 2px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: blueviolet;
+  color: aliceblue;
+  padding:5px 20px;
+}
+input[type="text"] {
+  padding: 5px;
+  font-size: 14px;
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.admin {
+  
+  margin-top: 0;
+  background-color:rgba(211, 211, 211, 0.973);
+}
+
+.team-list {
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content:space-between;  
+}
+
+.data-item {
+  width: calc(25% - 20px); 
+  margin:  5px;  
+  border: 1px solid #f9f6f6; 
+  border-radius: 8px;
+  padding:2px;
+  background-color:white;
+}
+.data-item:hover {
+  background-color: #f0f0f0; 
+}
+p{
+  text-align: center;  
+  height: 1%;
+  padding:1px; 
+  text-align:center;
+}
